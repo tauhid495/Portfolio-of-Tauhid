@@ -9,7 +9,7 @@ h1{
 span{
     color: orangered;
 }
-section{
+.flexible{
     display: flex;
     padding-bottom: 150px;
 }
@@ -18,7 +18,7 @@ section{
     padding-left: 5%;
 }
 .half-width img{
-    width: 80%;
+    width: 95%;
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +36,5 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-right: 2%;
 }
