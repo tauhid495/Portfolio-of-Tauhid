@@ -3,10 +3,9 @@ body{
     margin: 0;
 }
 h1{
-
     font-size: 50px;
 }
-span{
+.orange{
     color: orangered;
 }
 .flexible{
@@ -37,4 +36,33 @@ span{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 2%;
+}
+#ex{
+    margin: 20px;
+}
+.exp-shadow{
+    width: 40%;
+    margin: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 20px;
+    border-radius: 15px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.exp-background{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-web-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+}
+#web-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(255, 81, 0),rgb(235, 217, 135));
+    border-image-slice: 1;
 }
