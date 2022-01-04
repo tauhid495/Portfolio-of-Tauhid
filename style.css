@@ -66,3 +66,13 @@ h2{
     border-image: linear-gradient(rgb(255, 81, 0),rgb(235, 217, 135));
     border-image-slice: 1;
 }
+footer p{
+    text-align: center;
+    color: gray;
+}
+a:hover{
+    background-image: linear-gradient(lightgray, gray);
+    color: navy;
+    font-size: 18px;
+    padding: 9px 36px;
+}
